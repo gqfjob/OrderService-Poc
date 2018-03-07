@@ -1,0 +1,26 @@
+server:
+  port: 8080
+zuul:
+  prefix: /api
+  routes:
+    user-service:
+      path: /user-service/**
+      serviceId: user-service
+    product-service:
+      path: /product-service/**
+      serviceId: product-service
+    cart-service:
+      path: /cart-service/**
+      serviceId: cart-service
+    order-service:
+          path: /order-service/**
+          serviceId: order-service
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8300/eureka/
+  instance:
+    hostname: localhost

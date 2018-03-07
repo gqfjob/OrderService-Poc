@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="cart-service_main" target="1.8" />
+      <module name="cart-service_test" target="1.8" />
+      <module name="configuration-service_main" target="1.8" />
+      <module name="configuration-service_test" target="1.8" />
+      <module name="discovery-service_main" target="1.8" />
+      <module name="discovery-service_test" target="1.8" />
+      <module name="gateway-service_main" target="1.8" />
+      <module name="gateway-service_test" target="1.8" />
+      <module name="order-service_main" target="1.8" />
+      <module name="order-service_test" target="1.8" />
+      <module name="product-service_main" target="1.8" />
+      <module name="product-service_test" target="1.8" />
+      <module name="user-service_main" target="1.8" />
+      <module name="user-service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
