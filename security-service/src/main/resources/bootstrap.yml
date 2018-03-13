@@ -1,0 +1,22 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: auth-server
+
+security:
+  basic:
+    enabled: false
+  user:
+    name: levin
+    password: aaa
+  oauth2:
+    client:
+      client-id: aaa
+      client-secret: secret
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8300/eureka/

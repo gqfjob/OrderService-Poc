@@ -1,0 +1,12 @@
+<h2>Home</h2>
+
+<p>
+    <select data-bind="options: users,
+                   optionsText: function(user) {
+                       return user.name;
+                   },
+                   value: selectedUser,
+                   optionsCaption: 'Choose...'"></select>
+</p>
+
+<button data-bind='click: doSomething'>Click me</button>

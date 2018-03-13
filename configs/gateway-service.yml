@@ -5,15 +5,19 @@ zuul:
   routes:
     user-service:
       path: /user-service/**
+      sensitiveHeaders:
       serviceId: user-service
     product-service:
       path: /product-service/**
+      sensitiveHeaders:
       serviceId: product-service
     cart-service:
       path: /cart-service/**
+      sensitiveHeaders:
       serviceId: cart-service
     order-service:
           path: /order-service/**
+          sensitiveHeaders:
           serviceId: order-service
 
 eureka:
@@ -24,3 +28,23 @@ eureka:
       defaultZone: http://localhost:8300/eureka/
   instance:
     hostname: localhost
+    
+security:
+  user:
+    name: root
+    password: password
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:8085/uua/oauth/token
+      userAuthorizationUri: http://localhost:8085/uua/oauth/authorize
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: http://localhost:8085/uaa/user
+      preferTokenInfo: false  
+  sessions: ALWAYS 
+
+proxy:
+  auth:
+    routes:
+      user-service: oauth2
+      product-service: oauth2

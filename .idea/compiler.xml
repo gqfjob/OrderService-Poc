@@ -14,6 +14,8 @@
       <module name="order-service_test" target="1.8" />
       <module name="product-service_main" target="1.8" />
       <module name="product-service_test" target="1.8" />
+      <module name="security-service_main" target="1.8" />
+      <module name="security-service_test" target="1.8" />
       <module name="user-service_main" target="1.8" />
       <module name="user-service_test" target="1.8" />
     </bytecodeTargetLevel>

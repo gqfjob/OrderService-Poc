@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-security:2.0.0.M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-security/2.0.0.M3/3e40fe97bc6444e3532b1657b070eae9bc9590c6/spring-cloud-starter-security-2.0.0.M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-security/2.0.0.M3/61d0f4a59669f37c559164861b2d5a3cf0fe6131/spring-cloud-starter-security-2.0.0.M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
