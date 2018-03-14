@@ -1,22 +1,24 @@
 server:
-  port: 8085
+  port: 8305
+  context-path: /uaa
+  use-forward-headers: false
 
 spring:
   application:
-    name: auth-server
+    name: security-service
 
 security:
   basic:
     enabled: false
   user:
-    name: levin
-    password: aaa
-  oauth2:
-    client:
-      client-id: aaa
-      client-secret: secret
+    password: password
+  ignored: /css/**,/js/**,/favicon.ico,/webjars/**
 
 eureka:
+  instance:
+      hostname: localhost
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8300/eureka/

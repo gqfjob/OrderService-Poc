@@ -2,81 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fed1565f-add1-4879-9cdd-2e73db3e19fa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_security_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_security_2_0_0_M3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_M3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_security_2_0_0_M3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_5_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_5_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_5_0_3_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/security-service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/security-service_main.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/security-service_test.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cart-service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/cart-service_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/cart-service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/cart-service_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gateway-service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/gateway-service_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gateway-service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/gateway-service_test.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/user-service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/user-service_main.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/user-service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/user-service_test.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_eureka_.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/DynamicOauth2ClientContextFilter.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/SecurityConfig$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/SecurityConfig$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/DynamicOauth2ClientContextFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/JwtConfiguration.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/ResourceServerConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/public.cert" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/out/production/resources/jwt.jks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/out/production/resources/templates/authorize.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/out/production/resources/templates/login.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/src/main/resources/jwt.jks" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/src/main/resources/templates/authorize.ftl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/security-service/src/main/resources/templates/login.ftl" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/security-service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/security-service_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/security-service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/security-service_test.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cart-service/build.gradle" afterPath="$PROJECT_DIR$/cart-service/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/cart-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cart-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/client/.bowerrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" afterPath="$PROJECT_DIR$/client/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/client/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/bootstrap/bootstrap.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/crossroads/crossroads.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/hasher/hasher.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/jasmine/jasmine.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/jquery/jquery.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/js-signals/js-signals.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/knockout-projections/knockout-projections.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/knockout/knockout-3.2.0.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/definitions/knockout/knockout.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/gulpfile.js" afterPath="$PROJECT_DIR$/client/gulpfile.js" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/require.config.js" afterPath="$PROJECT_DIR$/client/src/app/require.config.js" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/router.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/startup.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/about-page/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/home-page/home.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/home-page/home.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/nav-bar/nav-bar.html" afterPath="$PROJECT_DIR$/client/src/components/nav-bar/nav-bar.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/nav-bar/nav-bar.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.html" afterPath="$PROJECT_DIR$/client/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/client/src/references.d.ts" afterPath="" />
       <change beforePath="$PROJECT_DIR$/configs/gateway-service.yml" afterPath="$PROJECT_DIR$/configs/gateway-service.yml" />
-      <change beforePath="$PROJECT_DIR$/configuration-service/out/production/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/configuration-service/out/production/resources/bootstrap.properties" />
-      <change beforePath="$PROJECT_DIR$/configuration-service/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/configuration-service/src/main/resources/bootstrap.properties" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/build.gradle" afterPath="$PROJECT_DIR$/discovery-service/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/build.gradle" afterPath="$PROJECT_DIR$/gateway-service/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/configs/user-service.yml" afterPath="$PROJECT_DIR$/configs/user-service.yml" />
       <change beforePath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/GatewayServiceApplication.class" afterPath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/GatewayServiceApplication.class" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/out/production/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/SecurityConfig.class" afterPath="$PROJECT_DIR$/gateway-service/out/production/classes/com/example/gatewayservice/SecurityConfig.class" />
       <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/security-service/src/main/resources/public.cert" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/security-service/build.gradle" afterPath="$PROJECT_DIR$/security-service/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/SecurityServiceApplication.class" afterPath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/SecurityServiceApplication.class" />
+      <change beforePath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/config/AuthServerConfig.class" afterPath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/config/AuthServerConfig.class" />
+      <change beforePath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/security-service/out/production/classes/com/demo/securityservice/config/SecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/security-service/out/production/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/security-service/out/production/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/security-service/src/main/resources/public.cert" afterPath="$PROJECT_DIR$/gateway-service/out/production/resources/public.cert" />
       <change beforePath="$PROJECT_DIR$/user-service/build.gradle" afterPath="$PROJECT_DIR$/user-service/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/user-service/out/production/classes/com/example/userservice/User.class" afterPath="$PROJECT_DIR$/user-service/out/production/classes/com/example/userservice/User.class" />
-      <change beforePath="$PROJECT_DIR$/user-service/out/production/resources/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/User.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/User.java" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/user-service/out/production/classes/com/example/userservice/UserServiceApplication.class" afterPath="$PROJECT_DIR$/user-service/out/production/classes/com/example/userservice/UserServiceApplication.class" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" />
     </list>
     <ignored path="$PROJECT_DIR$/order-service/.gradle/" />
     <ignored path="$PROJECT_DIR$/order-service/build/" />
@@ -147,26 +108,24 @@
         <task path="$PROJECT_DIR$/security-service">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/user-service">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="security-service" type="f1a62948:ProjectNode" />
+                <item name="user-service" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="security-service" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="security-service" type="f1a62948:ProjectNode" />
+                <item name="user-service" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="security-service" type="f1a62948:ProjectNode" />
+                <item name="user-service" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
@@ -178,64 +137,35 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java">
+    <leaf>
+      <file leaf-file-name="UserServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthServerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityServiceApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="153">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-service/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -256,6 +186,9 @@
       <find>User</find>
       <find>AuthenticationManager</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Work\poc\OrderService-Poc</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1985,10 +1918,10 @@
         <entry key="$PROJECT_DIR$/product-service" value="3040823232479" />
         <entry key="$PROJECT_DIR$/product-service/build.gradle" value="967252567" />
         <entry key="$PROJECT_DIR$/product-service/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
-        <entry key="$PROJECT_DIR$/security-service" value="3041770159084" />
-        <entry key="$PROJECT_DIR$/security-service/build.gradle" value="2009785739" />
+        <entry key="$PROJECT_DIR$/security-service" value="3041840492701" />
+        <entry key="$PROJECT_DIR$/security-service/build.gradle" value="841872358" />
         <entry key="$PROJECT_DIR$/security-service/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
-        <entry key="$PROJECT_DIR$/user-service" value="3040810745491" />
+        <entry key="$PROJECT_DIR$/user-service" value="3041339668729" />
         <entry key="$PROJECT_DIR$/user-service/build.gradle" value="1602076990" />
         <entry key="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" value="2881256037" />
       </map>
@@ -3001,7 +2934,6 @@
       <list>
         <option value="$PROJECT_DIR$/order-service/build.gradle" />
         <option value="$PROJECT_DIR$/product-service/build.gradle" />
-        <option value="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" />
         <option value="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/Product.java" />
         <option value="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductController.java" />
         <option value="$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductServiceApplication.java" />
@@ -3018,24 +2950,31 @@
         <option value="$PROJECT_DIR$/product-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/user-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/discovery-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/user-service/build.gradle" />
         <option value="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/User.java" />
         <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/WebConfig.java" />
         <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/OAuthConfig.java" />
         <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/Security.java" />
-        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java" />
         <option value="$PROJECT_DIR$/gateway-service/build.gradle" />
         <option value="$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" />
-        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" />
         <option value="$PROJECT_DIR$/configuration-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/cart-service/build.gradle" />
         <option value="$PROJECT_DIR$/discovery-service/build.gradle" />
-        <option value="$PROJECT_DIR$/security-service/build.gradle" />
-        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java" />
-        <option value="$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/security-service/src/main/resources/public.cert" />
+        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/JwtConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java" />
+        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/DynamicOauth2ClientContextFilter.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/JwtConfiguration.java" />
+        <option value="$PROJECT_DIR$/security-service/build.gradle" />
+        <option value="$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java" />
+        <option value="$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java" />
+        <option value="$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java" />
+        <option value="$PROJECT_DIR$/user-service/build.gradle" />
       </list>
     </option>
   </component>
@@ -3068,40 +3007,7 @@
           <expand>
             <path>
               <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="securityservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderService-Poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="security-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3113,10 +3019,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/security-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -3130,7 +3037,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecurityServiceApplication">
+  <component name="RunManager" selected="Application.ConfigurationServiceApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -3301,21 +3208,41 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="build (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="cart-service" />
-      <setting name="path" value="file://$PROJECT_DIR$/cart-service/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/cart-service" />
-      <setting name="debug" value="false" />
+    <configuration name="user-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="build (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="discovery-service" />
-      <setting name="path" value="file://$PROJECT_DIR$/discovery-service/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/discovery-service" />
-      <setting name="debug" value="false" />
+    <configuration name="user-service [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/user-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -3383,19 +3310,19 @@
       <item index="2" class="java.lang.String" itemvalue="Application.GatewayServiceApplication" />
       <item index="3" class="java.lang.String" itemvalue="Application.UserServiceApplication" />
       <item index="4" class="java.lang.String" itemvalue="Application.DiscoveryServiceApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="6" class="java.lang.String" itemvalue="Groovy.build (2)" />
-      <item index="7" class="java.lang.String" itemvalue="Application.CartServiceApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Gradle.security-service [clean]" />
-      <item index="9" class="java.lang.String" itemvalue="Gradle.security-service [build]" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CartServiceApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Gradle.security-service [clean]" />
+      <item index="7" class="java.lang.String" itemvalue="Gradle.security-service [build]" />
+      <item index="8" class="java.lang.String" itemvalue="Gradle.user-service [clean]" />
+      <item index="9" class="java.lang.String" itemvalue="Gradle.user-service [build]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.security-service [build]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.security-service [clean]" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CartServiceApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.build (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.user-service [build]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.user-service [clean]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.security-service [build]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.security-service [clean]" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CartServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -3417,24 +3344,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37400952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37579617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16910689" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21010248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3446,7 +3373,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3457,41 +3383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/example/productservice/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-248">
@@ -3514,13 +3405,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3590,52 +3474,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/WebConfig.java" />
     <entry file="file://$PROJECT_DIR$/gateway-service/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="67" lean-forward="false" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configuration-service/src/main/java/com/example/configurationservice/ConfigurationServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -3644,13 +3486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="34" column="58" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -3672,30 +3507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3723,22 +3534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -3755,32 +3550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security-service/src/main/resources/public.cert">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -3789,18 +3558,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/JwtConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="228">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="24" column="1" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="39" column="83" lean-forward="false" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/SecurityServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="425">
+          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service/src/main/java/com/demo/securityservice/config/AuthServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2088#2089#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/JwtConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/GatewayServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="36" column="70" lean-forward="false" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/example/gatewayservice/DynamicOauth2ClientContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1590#1591#0" expanded="false" />
+            <element signature="e#1646#1647#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/main3.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/example/userservice/UserServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
