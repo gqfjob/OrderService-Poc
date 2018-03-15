@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.cloud:spring-cloud-starter-eureka:">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/security-service/Could not find org.springframework.cloud:spring-cloud-starter-eureka:." />
+      <root url="file://$PROJECT_DIR$/discovery-service/Could not find org.springframework.cloud:spring-cloud-starter-eureka:." />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

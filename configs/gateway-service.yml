@@ -4,7 +4,6 @@ spring:
 server:
   port: 8080
 zuul:
-  prefix: /api
   routes:
     user-service:
       path: /user-service/**

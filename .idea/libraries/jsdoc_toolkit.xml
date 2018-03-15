@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsdoc-toolkit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/client/node_modules/hasher/dev/build/jsdoc-toolkit/jsrun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/client/node_modules/hasher/dev/build/jsdoc-toolkit/jsdebug.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

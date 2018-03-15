@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="discovery-service-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/discovery-service/build/libs/discovery-service-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

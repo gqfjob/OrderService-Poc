@@ -32,6 +32,9 @@ ext {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+	compile('org.springframework.cloud:spring-cloud-config-client')
+	compile('org.springframework.cloud:spring-cloud-starter-oauth2')
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 

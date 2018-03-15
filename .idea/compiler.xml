@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="security-service" />
+        <module name="uaa-service" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="1.8" />
       <module name="cart-service_main" target="1.8" />
       <module name="cart-service_test" target="1.8" />
       <module name="configuration-service_main" target="1.8" />
@@ -14,8 +25,10 @@
       <module name="order-service_test" target="1.8" />
       <module name="product-service_main" target="1.8" />
       <module name="product-service_test" target="1.8" />
+      <module name="security-service" target="1.8" />
       <module name="security-service_main" target="1.8" />
       <module name="security-service_test" target="1.8" />
+      <module name="uaa-service" target="1.8" />
       <module name="user-service_main" target="1.8" />
       <module name="user-service_test" target="1.8" />
     </bytecodeTargetLevel>
