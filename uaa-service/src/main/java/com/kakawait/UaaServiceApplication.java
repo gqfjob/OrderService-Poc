@@ -76,7 +76,7 @@ public class UaaServiceApplication extends WebMvcConfigurerAdapter {
         @Override
         protected void configure(AuthenticationManagerBuilder auth) throws Exception {
             auth.inMemoryAuthentication()
-                    .withUser("user").password("password").roles("USER")
+                    .withUser("user").password("123").roles("USER")
                     .and()
                     .withUser("admin").password("admin").roles("ADMIN");
 //            auth.parentAuthenticationManager(authenticationManager);

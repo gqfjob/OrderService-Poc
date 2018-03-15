@@ -3,6 +3,8 @@ package com.example.orderservice;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,12 +13,14 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+@EnableResourceServer
 @RestController
 @RequestMapping("/order")
 public class OrderController {
     RestTemplate template = new RestTemplate();
     private static final String url = "http://localhost:3000/orders/";
 
+    @PreAuthorize("#oauth2.hasScope('openid') and hasRole('ROLE_ADMIN')")
     @GetMapping("/all")
     public List<Order> getOrders() {
         ResponseEntity<List<Order>> ordersResponse = template.exchange(url, HttpMethod.GET, null,
