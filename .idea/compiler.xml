@@ -15,6 +15,9 @@
       <module name="api-gateway" target="1.8" />
       <module name="cart-service_main" target="1.8" />
       <module name="cart-service_test" target="1.8" />
+      <module name="client-service" target="1.8" />
+      <module name="client-service_main" target="1.8" />
+      <module name="client-service_test" target="1.8" />
       <module name="configuration-service_main" target="1.8" />
       <module name="configuration-service_test" target="1.8" />
       <module name="discovery-service_main" target="1.8" />

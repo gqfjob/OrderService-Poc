@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:9090/
+  application:
+    name: client-service
+
+management:
+  securtiy:
+    enabled: false

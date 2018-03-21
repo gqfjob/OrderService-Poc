@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.openfeign.form:feign-form:3.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign.form/feign-form/3.2.2/7ef3344addd62cd32e9a68f42380c4f73340e230/feign-form-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.openfeign.form/feign-form/3.2.2/fa3a7e16da82bb26a38e21206acacf307c85cf71/feign-form-3.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

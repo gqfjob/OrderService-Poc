@@ -5,7 +5,8 @@ import java.util.List;
 public class Order {
     int id;
     double cost;
-    List<Integer> products;
+    List<String> products;
+    String user;
 
     public int getId() {
         return id;
@@ -23,11 +24,19 @@ public class Order {
         this.cost = cost;
     }
 
-    public List<Integer> getProducts() {
+    public List<String> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Integer> products) {
+    public void setProducts(List<String> products) {
         this.products = products;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
     }
 }

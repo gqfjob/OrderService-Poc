@@ -32,9 +32,13 @@ ext {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.3.RELEASE'
 	compile('org.springframework.cloud:spring-cloud-config-client')
 	compile('org.springframework.cloud:spring-cloud-starter-oauth2')
-
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
+	compile group: 'io.github.openfeign.form', name: 'feign-form', version: '3.2.2'
+	compile group: 'io.github.openfeign.form', name: 'feign-form-spring', version: '3.2.2'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 

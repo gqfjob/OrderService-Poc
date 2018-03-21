@@ -31,9 +31,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 import java.security.KeyPair;
 
-/**
- * @author Thibaud Leprêtre
- */
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableWebSecurity

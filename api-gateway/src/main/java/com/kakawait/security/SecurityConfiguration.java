@@ -22,6 +22,7 @@ import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.web.filter.OncePerRequestFilter;
+import org.springframework.web.util.WebUtils;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -62,6 +63,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .addFilterAfter(oAuth2AuthenticationProcessingFilter(), AbstractPreAuthenticatedProcessingFilter.class)
             .logout().permitAll()
             .logoutSuccessUrl("/");
+        http.csrf().disable();
     }
 
     private OAuth2AuthenticationProcessingFilter oAuth2AuthenticationProcessingFilter() {
@@ -114,10 +116,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                                             FilterChain filterChain) throws ServletException, IOException {
                 CsrfToken csrf = (CsrfToken) request.getAttribute(CsrfToken.class.getName());
                 if (csrf != null) {
-                    Cookie cookie = new Cookie(CSRF_COOKIE_NAME, csrf.getToken());
-                    cookie.setPath("/");
-                    cookie.setSecure(true);
-                    response.addCookie(cookie);
+                    Cookie cookie = WebUtils.getCookie(request, CSRF_COOKIE_NAME);
+                    String token = csrf.getToken();
+                    if (cookie == null || token != null
+                            && !token.equals(cookie.getValue())) {
+                        cookie = new Cookie(CSRF_COOKIE_NAME, csrf.getToken());
+                        cookie.setPath("/");
+                        cookie.setSecure(true);
+                        response.addCookie(cookie);
+                    }
                 }
                 filterChain.doFilter(request, response);
             }

@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/api-gateway/api-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cart-service.iml" filepath="$PROJECT_DIR$/.idea/modules/cart-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cart-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cart-service_main.iml" group="cart-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cart-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cart-service_test.iml" group="cart-service" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-service.iml" filepath="$PROJECT_DIR$/.idea/modules/client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/client-service_main.iml" group="client-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/client-service_test.iml" group="client-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service_main.iml" group="configuration-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration-service_test.iml" group="configuration-service" />
@@ -18,12 +19,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service_main.iml" group="order-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/order-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/order-service_test.iml" group="order-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service_main.iml" group="product-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/product-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/product-service_test.iml" group="product-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security-service_main.iml" group="security-service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security-service_test.iml" group="security-service" />
       <module fileurl="file://$PROJECT_DIR$/uaa-service/uaa-service.iml" filepath="$PROJECT_DIR$/uaa-service/uaa-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service_main.iml" group="user-service" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service_test.iml" group="user-service" />
     </modules>
   </component>
 </project>
